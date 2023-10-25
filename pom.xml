@@ -59,12 +59,11 @@
 			<version>2.8.6</version>
 		</dependency>
 		<dependency>
-   <groupId>com.temenos.infinity</groupId>
-   <artifactId>OriginationWorkItem-23.0.0-SNAPSHOT</artifactId>
-   <version>23.0.0</version>
-   <scope>system</scope>
-   <systemPath> ${project.basedir}/OriginationWorkItem-23.0.0-SNAPSHOT.jar </systemPath>
-</dependency>
+			<groupId>com.temenos.infinity</groupId>
+			<artifactId>OriginationWorkItem</artifactId>
+			<version>23.0.0-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
 		<dependency>
 			<groupId>javax.persistence</groupId>
 			<artifactId>persistence-api</artifactId>
